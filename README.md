@@ -27,6 +27,7 @@ delete my local instance (possibly I am avoiding walking on cracks).
 
 Use FireFox 46.0
 
+I have also included the result of npm list in the node-solid-server directory
 ----------
 Step 0: Get Ubuntu. I chose 12.04.
 
