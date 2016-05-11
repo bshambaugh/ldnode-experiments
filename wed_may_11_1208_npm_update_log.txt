@@ -1,0 +1,635 @@
+git clone https://github.com/solid/node-solid-server.git
+cd node-solid-server/
+npm install -g
+npm update
+(node:9167) fs: re-evaluating native module sources is not supported. If you are using the graceful-fs module, please update it to a more recent version.
+npm WARN deprecated jade@0.26.3: Jade has been renamed to pug, please install the latest version of pug instead of jade
+npm WARN deprecated graceful-fs@2.0.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+npm WARN prefer global coffee-script@1.10.0 should be installed with -g
+
+> bufferutil@1.2.1 install /usr/local/bin/node-solid-server/node-solid-server/node_modules/bufferutil
+> node-gyp rebuild
+
+gyp WARN EACCES user "root" does not have permission to access the dev dir "/root/.node-gyp/6.0.0"
+gyp WARN EACCES attempting to reinstall using temporary dev dir "/usr/local/bin/node-solid-server/node-solid-server/node_modules/bufferutil/.node-gyp"
+make: Entering directory `/usr/local/bin/node-solid-server/node-solid-server/node_modules/bufferutil/build'
+  CXX(target) Release/obj.target/bufferutil/src/bufferutil.o
+In file included from ../src/bufferutil.cc:16:0:
+../../nan/nan.h:43:3: error: #error This version of node/NAN/v8 requires a C++11 compiler
+In file included from ../src/bufferutil.cc:7:0:
+/usr/local/bin/node-solid-server/node-solid-server/node_modules/bufferutil/.node-gyp/6.0.0/include/node/v8.h:341:1: error: expected unqualified-id before ‘using’
+/usr/local/bin/node-solid-server/node-solid-server/node_modules/bufferutil/.node-gyp/6.0.0/include/node/v8.h:477:1: error: expected unqualified-id before ‘using’
+/usr/local/bin/node-solid-server/node-solid-server/node_modules/bufferutil/.node-gyp/6.0.0/include/node/v8.h:871:1: error: expected unqualified-id before ‘using’
+In file included from ../../nan/nan.h:196:0,
+                 from ../src/bufferutil.cc:16:
+../../nan/nan_maybe_43_inl.h:13:1: error: expected unqualified-id before ‘using’
+../../nan/nan_maybe_43_inl.h:16:1: error: expected unqualified-id before ‘using’
+../../nan/nan_maybe_43_inl.h:19:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:24:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:31:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:36:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:41:1: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:46:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:51:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:59:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:64:12: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:69:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:76:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:83:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:91:12: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:98:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:108:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:114:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:118:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:125:1: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:130:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:135:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:139:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:145:12: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:150:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:156:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:162:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:168:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:174:12: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:180:12: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:186:12: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:194:12: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:201:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:205:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:209:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:213:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:217:12: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:223:12: error: ‘MaybeLocal’ does not name a type
+In file included from ../../nan/nan.h:201:0,
+                 from ../src/bufferutil.cc:16:
+../../nan/nan_converters.h:14:11: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_converters.h:16:56: error: ‘Maybe’ does not name a type
+../../nan/nan_converters.h:26:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:27:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:28:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:29:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:30:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:31:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:32:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:42:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:43:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:44:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:45:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:46:1: error: ‘return_t’ does not name a type
+In file included from ../../nan/nan_converters.h:59:0,
+                 from ../../nan/nan.h:201,
+                 from ../src/bufferutil.cc:16:
+../../nan/nan_converters_43_inl.h:18:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<v8::Boolean>’ does not name a type
+../../nan/nan_converters_43_inl.h:19:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<v8::Number>’ does not name a type
+../../nan/nan_converters_43_inl.h:20:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<v8::String>’ does not name a type
+../../nan/nan_converters_43_inl.h:21:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<v8::Object>’ does not name a type
+../../nan/nan_converters_43_inl.h:22:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<v8::Integer>’ does not name a type
+../../nan/nan_converters_43_inl.h:23:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<v8::Uint32>’ does not name a type
+../../nan/nan_converters_43_inl.h:24:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<v8::Int32>’ does not name a type
+../../nan/nan_converters_43_inl.h:34:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<bool>’ does not name a type
+../../nan/nan_converters_43_inl.h:35:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<double>’ does not name a type
+../../nan/nan_converters_43_inl.h:36:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<long int>’ does not name a type
+../../nan/nan_converters_43_inl.h:37:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<unsigned int>’ does not name a type
+../../nan/nan_converters_43_inl.h:38:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<int>’ does not name a type
+In file included from ../../nan/nan.h:202:0,
+                 from ../src/bufferutil.cc:16:
+../../nan/nan_new.h: In function ‘v8::Local<T> Nan::imp::To(v8::Local<v8::Integer>) [with T = v8::Integer]’:
+../../nan/nan_new.h:21:32: error: no matching function for call to ‘To(v8::Local<v8::Integer>&)’
+../../nan/nan_new.h:21:32: note: candidate is:
+../../nan/nan_converters.h:53:38: note: template<class T> typename Nan::imp::ToFactory::return_t Nan::To(v8::Local<v8::Value>)
+../../nan/nan_new.h: In function ‘v8::Local<T> Nan::imp::To(v8::Local<v8::Integer>) [with T = v8::Int32]’:
+../../nan/nan_new.h:28:30: error: no matching function for call to ‘To(v8::Local<v8::Integer>&)’
+../../nan/nan_new.h:28:30: note: candidate is:
+../../nan/nan_converters.h:53:38: note: template<class T> typename Nan::imp::ToFactory::return_t Nan::To(v8::Local<v8::Value>)
+../../nan/nan_new.h: In function ‘v8::Local<T> Nan::imp::To(v8::Local<v8::Integer>) [with T = v8::Uint32]’:
+../../nan/nan_new.h:35:31: error: no matching function for call to ‘To(v8::Local<v8::Integer>&)’
+../../nan/nan_new.h:35:31: note: candidate is:
+../../nan/nan_converters.h:53:38: note: template<class T> typename Nan::imp::ToFactory::return_t Nan::To(v8::Local<v8::Value>)
+../../nan/nan_new.h: At global scope:
+../../nan/nan_new.h:43:11: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_new.h:75:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:141:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:147:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:148:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:160:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:161:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:162:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:163:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:165:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:166:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:182:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:183:17: error: ‘return_t’ does not name a type
+In file included from ../../nan/nan_new.h:189:0,
+                 from ../../nan/nan.h:202,
+                 from ../src/bufferutil.cc:16:
+../../nan/nan_implementation_12_inl.h:56:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::Date>’ does not name a type
+../../nan/nan_implementation_12_inl.h: In static member function ‘static Nan::imp::FactoryBase<v8::Function>::return_t Nan::imp::Factory<v8::Function>::New(Nan::FunctionCallback, v8::Local<v8::Value>)’:
+../../nan/nan_implementation_12_inl.h:90:46: error: ‘NewInstance’ was not declared in this scope
+../../nan/nan_implementation_12_inl.h: In static member function ‘static Nan::imp::FactoryBase<v8::FunctionTemplate>::return_t Nan::imp::Factory<v8::FunctionTemplate>::New(Nan::FunctionCallback, v8::Local<v8::Value>, v8::Local<v8::Signature>)’:
+../../nan/nan_implementation_12_inl.h:118:48: error: ‘NewInstance’ was not declared in this scope
+../../nan/nan_implementation_12_inl.h: At global scope:
+../../nan/nan_implementation_12_inl.h:197:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::RegExp>’ does not name a type
+../../nan/nan_implementation_12_inl.h:216:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::Script>’ does not name a type
+../../nan/nan_implementation_12_inl.h:222:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::Script>’ does not name a type
+../../nan/nan_implementation_12_inl.h:254:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_implementation_12_inl.h:262:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_implementation_12_inl.h:268:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_implementation_12_inl.h:275:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_implementation_12_inl.h:281:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_implementation_12_inl.h:286:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_implementation_12_inl.h:347:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::UnboundScript>’ does not name a type
+../../nan/nan_implementation_12_inl.h:354:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::UnboundScript>’ does not name a type
+In file included from ../../nan/nan.h:202:0,
+                 from ../src/bufferutil.cc:16:
+../../nan/nan_new.h:293:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_new.h:299:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_new.h:305:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_new.h:311:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_new.h:317:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_new.h:323:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_new.h:329:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_new.h:335:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::RegExp>’ does not name a type
+In file included from ../src/bufferutil.cc:16:0:
+../../nan/nan.h: In function ‘v8::Local<v8::Value> Nan::Error(const char*)’:
+../../nan/nan.h:661:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘void Nan::ThrowError(const char*)’:
+../../nan/nan.h:661:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘v8::Local<v8::Value> Nan::RangeError(const char*)’:
+../../nan/nan.h:662:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘void Nan::ThrowRangeError(const char*)’:
+../../nan/nan.h:662:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘v8::Local<v8::Value> Nan::ReferenceError(const char*)’:
+../../nan/nan.h:663:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘void Nan::ThrowReferenceError(const char*)’:
+../../nan/nan.h:663:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘v8::Local<v8::Value> Nan::SyntaxError(const char*)’:
+../../nan/nan.h:664:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘void Nan::ThrowSyntaxError(const char*)’:
+../../nan/nan.h:664:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘v8::Local<v8::Value> Nan::TypeError(const char*)’:
+../../nan/nan.h:665:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘void Nan::ThrowTypeError(const char*)’:
+../../nan/nan.h:665:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: At global scope:
+../../nan/nan.h:673:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:695:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:711:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:724:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:741:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:747:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:755:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:762:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:768:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h: In member function ‘void Nan::Callback::SetFunction(const v8::Local<v8::Function>&)’:
+../../nan/nan.h:1404:40: error: ‘Set’ was not declared in this scope
+../../nan/nan.h:1404:40: note: suggested alternative:
+/usr/local/bin/node-solid-server/node-solid-server/node_modules/bufferutil/.node-gyp/6.0.0/include/node/v8.h:3067:17: note:   ‘v8::Set’
+../../nan/nan.h: In member function ‘void Nan::AsyncWorker::SaveToPersistent(const char*, const v8::Local<v8::Value>&)’:
+../../nan/nan.h:1524:41: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In member function ‘v8::Local<v8::Value> Nan::AsyncWorker::GetFromPersistent(const char*) const’:
+../../nan/nan.h:1542:45: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In member function ‘virtual void Nan::AsyncWorker::HandleErrorCallback()’:
+../../nan/nan.h:1576:58: error: no matching function for call to ‘New(const char*)’
+../../nan/nan.h:1576:58: note: candidates are:
+../../nan/nan_implementation_12_inl.h:390:21: note: template<class T, class M> v8::Local<T> Nan::New(const v8::Persistent<S, M>&)
+../../nan/nan_implementation_12_inl.h:395:21: note: template<class T, class M> v8::Local<T> Nan::New(const Nan::Persistent<T, M>&)
+../../nan/nan_implementation_12_inl.h:400:21: note: template<class T> v8::Local<T> Nan::New(const Nan::Global<T>&)
+../../nan/nan_new.h:201:1: note: template<class T> typename Nan::imp::Factory::return_t Nan::New()
+../../nan/nan_new.h:207:1: note: template<class T, class A0> typename Nan::imp::Factory<T>::return_t Nan::New(A0)
+../../nan/nan_new.h:213:1: note: template<class T, class A0, class A1> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1)
+../../nan/nan_new.h:219:1: note: template<class T, class A0, class A1, class A2> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1, A2)
+../../nan/nan_new.h:225:1: note: template<class T, class A0, class A1, class A2, class A3> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1, A2, A3)
+../../nan/nan_new.h:237:1: note: template<class T> typename Nan::imp::Factory::return_t Nan::New(Nan::FunctionCallback, v8::Local<v8::Value>)
+../../nan/nan_new.h:245:1: note: template<class T, class A2> typename Nan::imp::Factory<T>::return_t Nan::New(Nan::FunctionCallback, v8::Local<v8::Value>, A2)
+../../nan/nan.h: In function ‘void Nan::imp::SetMethodAux(T, v8::Local<v8::String>, v8::Local<v8::FunctionTemplate>, ...)’:
+../../nan/nan.h:1878:34: error: there are no arguments to ‘GetFunction’ that depend on a template parameter, so a declaration of ‘GetFunction’ must be available [-fpermissive]
+../../nan/nan.h:1878:34: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+../../nan/nan.h: In function ‘void Nan::SetMethod(HandleType<T>, const char*, Nan::FunctionCallback)’:
+../../nan/nan.h:1890:45: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘void Nan::SetPrototypeMethod(v8::Local<v8::FunctionTemplate>, const char*, Nan::FunctionCallback)’:
+../../nan/nan.h:1905:45: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘void Nan::SetAccessor(v8::Local<v8::ObjectTemplate>, v8::Local<v8::String>, Nan::GetterCallback, Nan::SetterCallback, v8::Local<v8::Value>, v8::AccessControl, v8::PropertyAttribute, Nan::imp::Sig)’:
+../../nan/nan.h:1930:47: error: ‘NewInstance’ was not declared in this scope
+../../nan/nan.h: In function ‘bool Nan::SetAccessor(v8::Local<v8::Object>, v8::Local<v8::String>, Nan::GetterCallback, Nan::SetterCallback, v8::Local<v8::Value>, v8::AccessControl, v8::PropertyAttribute)’:
+../../nan/nan.h:1973:51: error: ‘NewInstance’ was not declared in this scope
+../../nan/nan.h: In function ‘void Nan::SetNamedPropertyHandler(v8::Local<v8::ObjectTemplate>, Nan::PropertyGetterCallback, Nan::PropertySetterCallback, Nan::PropertyQueryCallback, Nan::PropertyDeleterCallback, Nan::PropertyEnumeratorCallback, v8::Local<v8::Value>)’:
+../../nan/nan.h:2021:47: error: ‘NewInstance’ was not declared in this scope
+../../nan/nan.h: In function ‘void Nan::SetIndexedPropertyHandler(v8::Local<v8::ObjectTemplate>, Nan::IndexGetterCallback, Nan::IndexSetterCallback, Nan::IndexQueryCallback, Nan::IndexDeleterCallback, Nan::IndexEnumeratorCallback, v8::Local<v8::Value>)’:
+../../nan/nan.h:2091:47: error: ‘NewInstance’ was not declared in this scope
+../../nan/nan.h: In function ‘void Nan::SetCallHandler(v8::Local<v8::FunctionTemplate>, Nan::FunctionCallback, v8::Local<v8::Value>)’:
+../../nan/nan.h:2146:47: error: ‘NewInstance’ was not declared in this scope
+../../nan/nan.h: In function ‘void Nan::SetCallAsFunctionHandler(v8::Local<v8::ObjectTemplate>, Nan::FunctionCallback, v8::Local<v8::Value>)’:
+../../nan/nan.h:2168:47: error: ‘NewInstance’ was not declared in this scope
+In file included from ../src/bufferutil.cc:16:0:
+../../nan/nan.h: In function ‘void Nan::Export(Nan::ADDON_REGISTER_FUNCTION_ARGS_TYPE, const char*, Nan::FunctionCallback)’:
+../../nan/nan.h:2195:35: error: no matching function for call to ‘New(const char*&)’
+../../nan/nan.h:2195:35: note: candidates are:
+../../nan/nan_implementation_12_inl.h:390:21: note: template<class T, class M> v8::Local<T> Nan::New(const v8::Persistent<S, M>&)
+../../nan/nan_implementation_12_inl.h:395:21: note: template<class T, class M> v8::Local<T> Nan::New(const Nan::Persistent<T, M>&)
+../../nan/nan_implementation_12_inl.h:400:21: note: template<class T> v8::Local<T> Nan::New(const Nan::Global<T>&)
+../../nan/nan_new.h:201:1: note: template<class T> typename Nan::imp::Factory::return_t Nan::New()
+../../nan/nan_new.h:207:1: note: template<class T, class A0> typename Nan::imp::Factory<T>::return_t Nan::New(A0)
+../../nan/nan_new.h:213:1: note: template<class T, class A0, class A1> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1)
+../../nan/nan_new.h:219:1: note: template<class T, class A0, class A1, class A2> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1, A2)
+../../nan/nan_new.h:225:1: note: template<class T, class A0, class A1, class A2, class A3> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1, A2, A3)
+../../nan/nan_new.h:237:1: note: template<class T> typename Nan::imp::Factory::return_t Nan::New(Nan::FunctionCallback, v8::Local<v8::Value>)
+../../nan/nan_new.h:245:1: note: template<class T, class A2> typename Nan::imp::Factory<T>::return_t Nan::New(Nan::FunctionCallback, v8::Local<v8::Value>, A2)
+../../nan/nan.h:2196:47: error: ‘GetFunction’ was not declared in this scope
+../../nan/nan.h:2196:65: error: ‘Set’ was not declared in this scope
+../../nan/nan.h:2196:65: note: suggested alternative:
+/usr/local/bin/node-solid-server/node-solid-server/node_modules/bufferutil/.node-gyp/6.0.0/include/node/v8.h:3067:17: note:   ‘v8::Set’
+../../nan/nan.h: In constructor ‘Nan::Tap::Tap(v8::Local<v8::Value>)’:
+../../nan/nan.h:2203:30: error: no matching function for call to ‘To(v8::Local<v8::Value>&)’
+../../nan/nan.h:2203:30: note: candidate is:
+../../nan/nan_converters.h:53:38: note: template<class T> typename Nan::imp::ToFactory::return_t Nan::To(v8::Local<v8::Value>)
+../../nan/nan.h: In member function ‘void Nan::Tap::ok(bool, const char*)’:
+../../nan/nan.h:2216:33: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In member function ‘void Nan::Tap::pass(const char*)’:
+../../nan/nan.h:2222:30: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: At global scope:
+../../nan/nan.h:2246:10: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:2251:40: error: ‘MaybeLocal’ was not declared in this scope
+../../nan/nan.h:2251:40: note: suggested alternative:
+/usr/local/bin/node-solid-server/node-solid-server/node_modules/bufferutil/.node-gyp/6.0.0/include/node/v8.h:113:7: note:   ‘v8::MaybeLocal’
+../../nan/nan.h:2251:52: error: template argument 1 is invalid
+../../nan/nan.h:2251:54: error: expected unqualified-id before ‘>’ token
+../../nan/nan.h:2260:1: error: ‘MaybeLocal’ does not name a type
+../src/bufferutil.cc:25:30: error: ‘v8::Handle’ has not been declared
+../src/bufferutil.cc:25:36: error: expected ‘,’ or ‘...’ before ‘<’ token
+../src/bufferutil.cc: In static member function ‘static void BufferUtil::Initialize(int)’:
+../src/bufferutil.cc:33:5: error: ‘Set’ is not a member of ‘Nan’
+../src/bufferutil.cc:33:5: note: suggested alternatives:
+/usr/local/bin/node-solid-server/node-solid-server/node_modules/bufferutil/.node-gyp/6.0.0/include/node/v8.h:3067:17: note:   ‘v8::Set’
+/usr/local/bin/node-solid-server/node-solid-server/node_modules/bufferutil/.node-gyp/6.0.0/include/node/v8.h:3067:17: note:   ‘v8::Set’
+../src/bufferutil.cc:33:14: error: ‘target’ was not declared in this scope
+../src/bufferutil.cc:33:51: error: no matching function for call to ‘New(const char [11])’
+../src/bufferutil.cc:33:51: note: candidates are:
+../../nan/nan_implementation_12_inl.h:390:21: note: template<class T, class M> v8::Local<T> Nan::New(const v8::Persistent<S, M>&)
+../../nan/nan_implementation_12_inl.h:395:21: note: template<class T, class M> v8::Local<T> Nan::New(const Nan::Persistent<T, M>&)
+../../nan/nan_implementation_12_inl.h:400:21: note: template<class T> v8::Local<T> Nan::New(const Nan::Global<T>&)
+../../nan/nan_new.h:201:1: note: template<class T> typename Nan::imp::Factory::return_t Nan::New()
+../../nan/nan_new.h:207:1: note: template<class T, class A0> typename Nan::imp::Factory<T>::return_t Nan::New(A0)
+../../nan/nan_new.h:213:1: note: template<class T, class A0, class A1> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1)
+../../nan/nan_new.h:219:1: note: template<class T, class A0, class A1, class A2> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1, A2)
+../../nan/nan_new.h:225:1: note: template<class T, class A0, class A1, class A2, class A3> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1, A2, A3)
+../../nan/nan_new.h:237:1: note: template<class T> typename Nan::imp::Factory::return_t Nan::New(Nan::FunctionCallback, v8::Local<v8::Value>)
+../../nan/nan_new.h:245:1: note: template<class T, class A2> typename Nan::imp::Factory<T>::return_t Nan::New(Nan::FunctionCallback, v8::Local<v8::Value>, A2)
+../src/bufferutil.cc: At global scope:
+../src/bufferutil.cc:114:12: error: variable or field ‘init’ declared void
+../src/bufferutil.cc:114:12: error: ‘Handle’ was not declared in this scope
+../src/bufferutil.cc:114:25: error: expected primary-expression before ‘>’ token
+../src/bufferutil.cc:114:27: error: ‘target’ was not declared in this scope
+../src/bufferutil.cc:120:1: error: ‘init’ was not declared in this scope
+make: *** [Release/obj.target/bufferutil/src/bufferutil.o] Error 1
+make: Leaving directory `/usr/local/bin/node-solid-server/node-solid-server/node_modules/bufferutil/build'
+gyp ERR! build error 
+gyp ERR! stack Error: `make` failed with exit code: 2
+gyp ERR! stack     at ChildProcess.onExit (/usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:276:23)
+gyp ERR! stack     at emitTwo (events.js:106:13)
+gyp ERR! stack     at ChildProcess.emit (events.js:191:7)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:204:12)
+gyp ERR! System Linux 3.2.0-97-generic
+gyp ERR! command "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+gyp ERR! cwd /usr/local/bin/node-solid-server/node-solid-server/node_modules/bufferutil
+gyp ERR! node -v v6.0.0
+gyp ERR! node-gyp -v v3.3.1
+gyp ERR! not ok 
+npm WARN install:bufferutil@1.2.1 bufferutil@1.2.1 install: `node-gyp rebuild`
+npm WARN install:bufferutil@1.2.1 Exit status 1
+
+> utf-8-validate@1.2.1 install /usr/local/bin/node-solid-server/node-solid-server/node_modules/utf-8-validate
+> node-gyp rebuild
+
+gyp WARN EACCES user "root" does not have permission to access the dev dir "/root/.node-gyp/6.0.0"
+gyp WARN EACCES attempting to reinstall using temporary dev dir "/usr/local/bin/node-solid-server/node-solid-server/node_modules/utf-8-validate/.node-gyp"
+make: Entering directory `/usr/local/bin/node-solid-server/node-solid-server/node_modules/utf-8-validate/build'
+  CXX(target) Release/obj.target/validation/src/validation.o
+In file included from ../src/validation.cc:15:0:
+../../nan/nan.h:43:3: error: #error This version of node/NAN/v8 requires a C++11 compiler
+In file included from ../src/validation.cc:7:0:
+/usr/local/bin/node-solid-server/node-solid-server/node_modules/utf-8-validate/.node-gyp/6.0.0/include/node/v8.h:341:1: error: expected unqualified-id before ‘using’
+/usr/local/bin/node-solid-server/node-solid-server/node_modules/utf-8-validate/.node-gyp/6.0.0/include/node/v8.h:477:1: error: expected unqualified-id before ‘using’
+/usr/local/bin/node-solid-server/node-solid-server/node_modules/utf-8-validate/.node-gyp/6.0.0/include/node/v8.h:871:1: error: expected unqualified-id before ‘using’
+In file included from ../../nan/nan.h:196:0,
+                 from ../src/validation.cc:15:
+../../nan/nan_maybe_43_inl.h:13:1: error: expected unqualified-id before ‘using’
+../../nan/nan_maybe_43_inl.h:16:1: error: expected unqualified-id before ‘using’
+../../nan/nan_maybe_43_inl.h:19:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:24:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:31:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:36:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:41:1: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:46:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:51:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:59:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:64:12: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:69:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:76:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:83:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:91:12: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:98:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:108:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:114:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:118:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:125:1: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:130:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:135:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:139:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:145:12: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:150:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:156:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:162:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:168:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:174:12: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:180:12: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:186:12: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:194:12: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:201:1: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:205:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:209:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:213:12: error: ‘Maybe’ does not name a type
+../../nan/nan_maybe_43_inl.h:217:12: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_maybe_43_inl.h:223:12: error: ‘MaybeLocal’ does not name a type
+In file included from ../../nan/nan.h:201:0,
+                 from ../src/validation.cc:15:
+../../nan/nan_converters.h:14:11: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_converters.h:16:56: error: ‘Maybe’ does not name a type
+../../nan/nan_converters.h:26:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:27:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:28:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:29:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:30:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:31:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:32:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:42:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:43:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:44:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:45:1: error: ‘return_t’ does not name a type
+../../nan/nan_converters.h:46:1: error: ‘return_t’ does not name a type
+In file included from ../../nan/nan_converters.h:59:0,
+                 from ../../nan/nan.h:201,
+                 from ../src/validation.cc:15:
+../../nan/nan_converters_43_inl.h:18:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<v8::Boolean>’ does not name a type
+../../nan/nan_converters_43_inl.h:19:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<v8::Number>’ does not name a type
+../../nan/nan_converters_43_inl.h:20:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<v8::String>’ does not name a type
+../../nan/nan_converters_43_inl.h:21:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<v8::Object>’ does not name a type
+../../nan/nan_converters_43_inl.h:22:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<v8::Integer>’ does not name a type
+../../nan/nan_converters_43_inl.h:23:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<v8::Uint32>’ does not name a type
+../../nan/nan_converters_43_inl.h:24:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<v8::Int32>’ does not name a type
+../../nan/nan_converters_43_inl.h:34:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<bool>’ does not name a type
+../../nan/nan_converters_43_inl.h:35:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<double>’ does not name a type
+../../nan/nan_converters_43_inl.h:36:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<long int>’ does not name a type
+../../nan/nan_converters_43_inl.h:37:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<unsigned int>’ does not name a type
+../../nan/nan_converters_43_inl.h:38:1: error: ‘return_t’ in ‘struct Nan::imp::ToFactory<int>’ does not name a type
+In file included from ../../nan/nan.h:202:0,
+                 from ../src/validation.cc:15:
+../../nan/nan_new.h: In function ‘v8::Local<T> Nan::imp::To(v8::Local<v8::Integer>) [with T = v8::Integer]’:
+../../nan/nan_new.h:21:32: error: no matching function for call to ‘To(v8::Local<v8::Integer>&)’
+../../nan/nan_new.h:21:32: note: candidate is:
+../../nan/nan_converters.h:53:38: note: template<class T> typename Nan::imp::ToFactory::return_t Nan::To(v8::Local<v8::Value>)
+../../nan/nan_new.h: In function ‘v8::Local<T> Nan::imp::To(v8::Local<v8::Integer>) [with T = v8::Int32]’:
+../../nan/nan_new.h:28:30: error: no matching function for call to ‘To(v8::Local<v8::Integer>&)’
+../../nan/nan_new.h:28:30: note: candidate is:
+../../nan/nan_converters.h:53:38: note: template<class T> typename Nan::imp::ToFactory::return_t Nan::To(v8::Local<v8::Value>)
+../../nan/nan_new.h: In function ‘v8::Local<T> Nan::imp::To(v8::Local<v8::Integer>) [with T = v8::Uint32]’:
+../../nan/nan_new.h:35:31: error: no matching function for call to ‘To(v8::Local<v8::Integer>&)’
+../../nan/nan_new.h:35:31: note: candidate is:
+../../nan/nan_converters.h:53:38: note: template<class T> typename Nan::imp::ToFactory::return_t Nan::To(v8::Local<v8::Value>)
+../../nan/nan_new.h: At global scope:
+../../nan/nan_new.h:43:11: error: ‘MaybeLocal’ does not name a type
+../../nan/nan_new.h:75:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:141:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:147:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:148:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:160:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:161:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:162:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:163:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:165:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:166:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:182:17: error: ‘return_t’ does not name a type
+../../nan/nan_new.h:183:17: error: ‘return_t’ does not name a type
+In file included from ../../nan/nan_new.h:189:0,
+                 from ../../nan/nan.h:202,
+                 from ../src/validation.cc:15:
+../../nan/nan_implementation_12_inl.h:56:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::Date>’ does not name a type
+../../nan/nan_implementation_12_inl.h: In static member function ‘static Nan::imp::FactoryBase<v8::Function>::return_t Nan::imp::Factory<v8::Function>::New(Nan::FunctionCallback, v8::Local<v8::Value>)’:
+../../nan/nan_implementation_12_inl.h:90:46: error: ‘NewInstance’ was not declared in this scope
+../../nan/nan_implementation_12_inl.h: In static member function ‘static Nan::imp::FactoryBase<v8::FunctionTemplate>::return_t Nan::imp::Factory<v8::FunctionTemplate>::New(Nan::FunctionCallback, v8::Local<v8::Value>, v8::Local<v8::Signature>)’:
+../../nan/nan_implementation_12_inl.h:118:48: error: ‘NewInstance’ was not declared in this scope
+../../nan/nan_implementation_12_inl.h: At global scope:
+../../nan/nan_implementation_12_inl.h:197:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::RegExp>’ does not name a type
+../../nan/nan_implementation_12_inl.h:216:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::Script>’ does not name a type
+../../nan/nan_implementation_12_inl.h:222:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::Script>’ does not name a type
+../../nan/nan_implementation_12_inl.h:254:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_implementation_12_inl.h:262:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_implementation_12_inl.h:268:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_implementation_12_inl.h:275:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_implementation_12_inl.h:281:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_implementation_12_inl.h:286:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_implementation_12_inl.h:347:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::UnboundScript>’ does not name a type
+../../nan/nan_implementation_12_inl.h:354:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::UnboundScript>’ does not name a type
+In file included from ../../nan/nan.h:202:0,
+                 from ../src/validation.cc:15:
+../../nan/nan_new.h:293:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_new.h:299:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_new.h:305:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_new.h:311:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_new.h:317:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_new.h:323:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_new.h:329:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::String>’ does not name a type
+../../nan/nan_new.h:335:1: error: ‘return_t’ in ‘struct Nan::imp::Factory<v8::RegExp>’ does not name a type
+In file included from ../src/validation.cc:15:0:
+../../nan/nan.h: In function ‘v8::Local<v8::Value> Nan::Error(const char*)’:
+../../nan/nan.h:661:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘void Nan::ThrowError(const char*)’:
+../../nan/nan.h:661:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘v8::Local<v8::Value> Nan::RangeError(const char*)’:
+../../nan/nan.h:662:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘void Nan::ThrowRangeError(const char*)’:
+../../nan/nan.h:662:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘v8::Local<v8::Value> Nan::ReferenceError(const char*)’:
+../../nan/nan.h:663:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘void Nan::ThrowReferenceError(const char*)’:
+../../nan/nan.h:663:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘v8::Local<v8::Value> Nan::SyntaxError(const char*)’:
+../../nan/nan.h:664:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘void Nan::ThrowSyntaxError(const char*)’:
+../../nan/nan.h:664:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘v8::Local<v8::Value> Nan::TypeError(const char*)’:
+../../nan/nan.h:665:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘void Nan::ThrowTypeError(const char*)’:
+../../nan/nan.h:665:3: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: At global scope:
+../../nan/nan.h:673:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:695:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:711:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:724:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:741:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:747:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:755:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:762:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:768:14: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h: In member function ‘void Nan::Callback::SetFunction(const v8::Local<v8::Function>&)’:
+../../nan/nan.h:1404:40: error: ‘Set’ was not declared in this scope
+../../nan/nan.h:1404:40: note: suggested alternative:
+/usr/local/bin/node-solid-server/node-solid-server/node_modules/utf-8-validate/.node-gyp/6.0.0/include/node/v8.h:3067:17: note:   ‘v8::Set’
+../../nan/nan.h: In member function ‘void Nan::AsyncWorker::SaveToPersistent(const char*, const v8::Local<v8::Value>&)’:
+../../nan/nan.h:1524:41: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In member function ‘v8::Local<v8::Value> Nan::AsyncWorker::GetFromPersistent(const char*) const’:
+../../nan/nan.h:1542:45: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In member function ‘virtual void Nan::AsyncWorker::HandleErrorCallback()’:
+../../nan/nan.h:1576:58: error: no matching function for call to ‘New(const char*)’
+../../nan/nan.h:1576:58: note: candidates are:
+../../nan/nan_implementation_12_inl.h:390:21: note: template<class T, class M> v8::Local<T> Nan::New(const v8::Persistent<S, M>&)
+../../nan/nan_implementation_12_inl.h:395:21: note: template<class T, class M> v8::Local<T> Nan::New(const Nan::Persistent<T, M>&)
+../../nan/nan_implementation_12_inl.h:400:21: note: template<class T> v8::Local<T> Nan::New(const Nan::Global<T>&)
+../../nan/nan_new.h:201:1: note: template<class T> typename Nan::imp::Factory::return_t Nan::New()
+../../nan/nan_new.h:207:1: note: template<class T, class A0> typename Nan::imp::Factory<T>::return_t Nan::New(A0)
+../../nan/nan_new.h:213:1: note: template<class T, class A0, class A1> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1)
+../../nan/nan_new.h:219:1: note: template<class T, class A0, class A1, class A2> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1, A2)
+../../nan/nan_new.h:225:1: note: template<class T, class A0, class A1, class A2, class A3> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1, A2, A3)
+../../nan/nan_new.h:237:1: note: template<class T> typename Nan::imp::Factory::return_t Nan::New(Nan::FunctionCallback, v8::Local<v8::Value>)
+../../nan/nan_new.h:245:1: note: template<class T, class A2> typename Nan::imp::Factory<T>::return_t Nan::New(Nan::FunctionCallback, v8::Local<v8::Value>, A2)
+../../nan/nan.h: In function ‘void Nan::imp::SetMethodAux(T, v8::Local<v8::String>, v8::Local<v8::FunctionTemplate>, ...)’:
+../../nan/nan.h:1878:34: error: there are no arguments to ‘GetFunction’ that depend on a template parameter, so a declaration of ‘GetFunction’ must be available [-fpermissive]
+../../nan/nan.h:1878:34: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+../../nan/nan.h: In function ‘void Nan::SetMethod(HandleType<T>, const char*, Nan::FunctionCallback)’:
+../../nan/nan.h:1890:45: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘void Nan::SetPrototypeMethod(v8::Local<v8::FunctionTemplate>, const char*, Nan::FunctionCallback)’:
+../../nan/nan.h:1905:45: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In function ‘void Nan::SetAccessor(v8::Local<v8::ObjectTemplate>, v8::Local<v8::String>, Nan::GetterCallback, Nan::SetterCallback, v8::Local<v8::Value>, v8::AccessControl, v8::PropertyAttribute, Nan::imp::Sig)’:
+../../nan/nan.h:1930:47: error: ‘NewInstance’ was not declared in this scope
+../../nan/nan.h: In function ‘bool Nan::SetAccessor(v8::Local<v8::Object>, v8::Local<v8::String>, Nan::GetterCallback, Nan::SetterCallback, v8::Local<v8::Value>, v8::AccessControl, v8::PropertyAttribute)’:
+../../nan/nan.h:1973:51: error: ‘NewInstance’ was not declared in this scope
+../../nan/nan.h: In function ‘void Nan::SetNamedPropertyHandler(v8::Local<v8::ObjectTemplate>, Nan::PropertyGetterCallback, Nan::PropertySetterCallback, Nan::PropertyQueryCallback, Nan::PropertyDeleterCallback, Nan::PropertyEnumeratorCallback, v8::Local<v8::Value>)’:
+../../nan/nan.h:2021:47: error: ‘NewInstance’ was not declared in this scope
+../../nan/nan.h: In function ‘void Nan::SetIndexedPropertyHandler(v8::Local<v8::ObjectTemplate>, Nan::IndexGetterCallback, Nan::IndexSetterCallback, Nan::IndexQueryCallback, Nan::IndexDeleterCallback, Nan::IndexEnumeratorCallback, v8::Local<v8::Value>)’:
+../../nan/nan.h:2091:47: error: ‘NewInstance’ was not declared in this scope
+../../nan/nan.h: In function ‘void Nan::SetCallHandler(v8::Local<v8::FunctionTemplate>, Nan::FunctionCallback, v8::Local<v8::Value>)’:
+../../nan/nan.h:2146:47: error: ‘NewInstance’ was not declared in this scope
+../../nan/nan.h: In function ‘void Nan::SetCallAsFunctionHandler(v8::Local<v8::ObjectTemplate>, Nan::FunctionCallback, v8::Local<v8::Value>)’:
+../../nan/nan.h:2168:47: error: ‘NewInstance’ was not declared in this scope
+In file included from ../src/validation.cc:15:0:
+../../nan/nan.h: In function ‘void Nan::Export(Nan::ADDON_REGISTER_FUNCTION_ARGS_TYPE, const char*, Nan::FunctionCallback)’:
+../../nan/nan.h:2195:35: error: no matching function for call to ‘New(const char*&)’
+../../nan/nan.h:2195:35: note: candidates are:
+../../nan/nan_implementation_12_inl.h:390:21: note: template<class T, class M> v8::Local<T> Nan::New(const v8::Persistent<S, M>&)
+../../nan/nan_implementation_12_inl.h:395:21: note: template<class T, class M> v8::Local<T> Nan::New(const Nan::Persistent<T, M>&)
+../../nan/nan_implementation_12_inl.h:400:21: note: template<class T> v8::Local<T> Nan::New(const Nan::Global<T>&)
+../../nan/nan_new.h:201:1: note: template<class T> typename Nan::imp::Factory::return_t Nan::New()
+../../nan/nan_new.h:207:1: note: template<class T, class A0> typename Nan::imp::Factory<T>::return_t Nan::New(A0)
+../../nan/nan_new.h:213:1: note: template<class T, class A0, class A1> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1)
+../../nan/nan_new.h:219:1: note: template<class T, class A0, class A1, class A2> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1, A2)
+../../nan/nan_new.h:225:1: note: template<class T, class A0, class A1, class A2, class A3> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1, A2, A3)
+../../nan/nan_new.h:237:1: note: template<class T> typename Nan::imp::Factory::return_t Nan::New(Nan::FunctionCallback, v8::Local<v8::Value>)
+../../nan/nan_new.h:245:1: note: template<class T, class A2> typename Nan::imp::Factory<T>::return_t Nan::New(Nan::FunctionCallback, v8::Local<v8::Value>, A2)
+../../nan/nan.h:2196:47: error: ‘GetFunction’ was not declared in this scope
+../../nan/nan.h:2196:65: error: ‘Set’ was not declared in this scope
+../../nan/nan.h:2196:65: note: suggested alternative:
+/usr/local/bin/node-solid-server/node-solid-server/node_modules/utf-8-validate/.node-gyp/6.0.0/include/node/v8.h:3067:17: note:   ‘v8::Set’
+../../nan/nan.h: In constructor ‘Nan::Tap::Tap(v8::Local<v8::Value>)’:
+../../nan/nan.h:2203:30: error: no matching function for call to ‘To(v8::Local<v8::Value>&)’
+../../nan/nan.h:2203:30: note: candidate is:
+../../nan/nan_converters.h:53:38: note: template<class T> typename Nan::imp::ToFactory::return_t Nan::To(v8::Local<v8::Value>)
+../../nan/nan.h: In member function ‘void Nan::Tap::ok(bool, const char*)’:
+../../nan/nan.h:2216:33: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: In member function ‘void Nan::Tap::pass(const char*)’:
+../../nan/nan.h:2222:30: error: ‘Nan::imp::FactoryBase<v8::Boolean>::return_t’ has no member named ‘ToLocalChecked’
+../../nan/nan.h: At global scope:
+../../nan/nan.h:2246:10: error: ‘MaybeLocal’ does not name a type
+../../nan/nan.h:2251:40: error: ‘MaybeLocal’ was not declared in this scope
+../../nan/nan.h:2251:40: note: suggested alternative:
+/usr/local/bin/node-solid-server/node-solid-server/node_modules/utf-8-validate/.node-gyp/6.0.0/include/node/v8.h:113:7: note:   ‘v8::MaybeLocal’
+../../nan/nan.h:2251:52: error: template argument 1 is invalid
+../../nan/nan.h:2251:54: error: expected unqualified-id before ‘>’ token
+../../nan/nan.h:2260:1: error: ‘MaybeLocal’ does not name a type
+../src/validation.cc:107:30: error: ‘v8::Handle’ has not been declared
+../src/validation.cc:107:36: error: expected ‘,’ or ‘...’ before ‘<’ token
+../src/validation.cc: In static member function ‘static void Validation::Initialize(int)’:
+../src/validation.cc:113:5: error: ‘Set’ is not a member of ‘Nan’
+../src/validation.cc:113:5: note: suggested alternatives:
+/usr/local/bin/node-solid-server/node-solid-server/node_modules/utf-8-validate/.node-gyp/6.0.0/include/node/v8.h:3067:17: note:   ‘v8::Set’
+/usr/local/bin/node-solid-server/node-solid-server/node_modules/utf-8-validate/.node-gyp/6.0.0/include/node/v8.h:3067:17: note:   ‘v8::Set’
+../src/validation.cc:113:14: error: ‘target’ was not declared in this scope
+../src/validation.cc:113:51: error: no matching function for call to ‘New(const char [11])’
+../src/validation.cc:113:51: note: candidates are:
+../../nan/nan_implementation_12_inl.h:390:21: note: template<class T, class M> v8::Local<T> Nan::New(const v8::Persistent<S, M>&)
+../../nan/nan_implementation_12_inl.h:395:21: note: template<class T, class M> v8::Local<T> Nan::New(const Nan::Persistent<T, M>&)
+../../nan/nan_implementation_12_inl.h:400:21: note: template<class T> v8::Local<T> Nan::New(const Nan::Global<T>&)
+../../nan/nan_new.h:201:1: note: template<class T> typename Nan::imp::Factory::return_t Nan::New()
+../../nan/nan_new.h:207:1: note: template<class T, class A0> typename Nan::imp::Factory<T>::return_t Nan::New(A0)
+../../nan/nan_new.h:213:1: note: template<class T, class A0, class A1> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1)
+../../nan/nan_new.h:219:1: note: template<class T, class A0, class A1, class A2> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1, A2)
+../../nan/nan_new.h:225:1: note: template<class T, class A0, class A1, class A2, class A3> typename Nan::imp::Factory<T>::return_t Nan::New(A0, A1, A2, A3)
+../../nan/nan_new.h:237:1: note: template<class T> typename Nan::imp::Factory::return_t Nan::New(Nan::FunctionCallback, v8::Local<v8::Value>)
+../../nan/nan_new.h:245:1: note: template<class T, class A2> typename Nan::imp::Factory<T>::return_t Nan::New(Nan::FunctionCallback, v8::Local<v8::Value>, A2)
+../src/validation.cc: At global scope:
+../src/validation.cc:141:12: error: variable or field ‘init’ declared void
+../src/validation.cc:141:12: error: ‘Handle’ was not declared in this scope
+../src/validation.cc:141:25: error: expected primary-expression before ‘>’ token
+../src/validation.cc:141:27: error: ‘target’ was not declared in this scope
+../src/validation.cc:147:1: error: ‘init’ was not declared in this scope
+make: *** [Release/obj.target/validation/src/validation.o] Error 1
+make: Leaving directory `/usr/local/bin/node-solid-server/node-solid-server/node_modules/utf-8-validate/build'
+gyp ERR! build error 
+gyp ERR! stack Error: `make` failed with exit code: 2
+gyp ERR! stack     at ChildProcess.onExit (/usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:276:23)
+gyp ERR! stack     at emitTwo (events.js:106:13)
+gyp ERR! stack     at ChildProcess.emit (events.js:191:7)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:204:12)
+gyp ERR! System Linux 3.2.0-97-generic
+gyp ERR! command "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+gyp ERR! cwd /usr/local/bin/node-solid-server/node-solid-server/node_modules/utf-8-validate
+gyp ERR! node -v v6.0.0
+gyp ERR! node-gyp -v v3.3.1
+gyp ERR! not ok 
+npm WARN install:utf-8-validate@1.2.1 utf-8-validate@1.2.1 install: `node-gyp rebuild`
+npm WARN install:utf-8-validate@1.2.1 Exit status 1
+solid-server@2.1.5 /usr/local/bin/node-solid-server/node-solid-server
+├── async@1.5.2 
+├── body-parser@1.15.1 
+├── busboy@0.2.13 
+├── camelize@1.0.0 
+├── chai@3.5.0 
+├── colors@1.1.2 
+├── cors@2.7.1 
+├── debug@2.2.0 
+├── express@4.13.4 
+├── express-session@1.13.0 
+├── extend@3.0.0 
+├── from2@2.1.1 
+├── fs-extra@0.30.0 
+├── glob@7.0.3 
+├── inquirer@1.0.2 
+├── ip-range-check@0.0.1 
+├── is-ip@1.0.0 
+├── jsonld@0.4.11 
+├── li@1.0.1 
+├── mime@1.3.4 
+├── mocha@2.4.5 
+├── moment@2.13.0 
+├── n3@0.4.5 
+├── negotiator@0.6.1 
+├── nock@7.7.3 
+├── node-forge@0.6.39 
+├── node-uuid@1.4.7 
+├── nodemailer@2.4.0 
+├── nomnom@1.8.1 
+├── rdflib@0.6.1 
+├── request@2.72.0 
+├── rimraf@2.5.2 
+├── rsvp@3.2.1 
+├── sinon@1.17.4 
+├── solid-ws@0.2.2 
+├── standard@7.0.1 
+├── string@3.3.1 
+├── supertest@1.2.0 
+├── uuid@2.0.2 
+├── valid-url@1.0.9 
+├── vhost@3.0.2 
+└── webid@0.3.7
+
+------------------------------------------
+
+TODO: Go through the process that you get with https://localhost:8443 from thee Firefox 46.0 browser to see if the certificate is saved in the browser. Try alternating with having the browser remembering the exception for locahost:8443 as temporary or permanent. Forget using existing certificates at initial setup since this does not make sense (you are using the self-signed certificates you just created (e.g. localhost.crt.pem and localhost.key.pem)). Hopefully the browser will chose to store your certificates sho you can chose them at next startup (to hopefully avoid not authorized errors when you start again). A guess is this may happen if you chose to remember the exception for localhost:8443 permanently. 
